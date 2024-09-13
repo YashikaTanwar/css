@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradients</title>
+    <style>
+        /* top to bottom */
+        #grad{
+            height: 200px;
+            background: linear-gradient(pink,blue);
+        }
+        /* left to right */
+        #grad1{
+            height: 200px;
+            background: linear-gradient(to right, pink,blue);
+        }
+        /* diagonal */
+        #grad2{
+            height: 200px;
+            background: linear-gradient(to bottom right, pink,blue);
+        }
+        /* multi-colored */
+        #grad3{
+            height: 200px;
+            background: linear-gradient(pink,blue,red,green);
+        }
+        /* radial-gradients */
+        #grad4{
+            height: 200px;
+            background: radial-gradient(red,yellow,orange);
+        }
+        /* radial-gradients circle*/
+        #grad5{
+            height: 200px;
+            background: radial-gradient(circle, red ,yellow ,orange );
+        }
+        #grad6{
+            height: 200px;
+            background: radial-gradient(circle, red 5% ,yellow 10%,orange 15%);
+        }
+    </style>
+</head>
+<body>
+    <!-- linear gradient (left,right,top,bottom,diagonal)-->
+     <!-- Radial Gradient (defined by the center)-->
+      <div id="grad"></div>
+      <hr>
+      <div id="grad1"></div>
+      <hr>
+      <div id="grad2"></div>
+      <hr>
+      <div id="grad3"></div>
+      <hr>
+      <div id="grad4"></div>
+      <hr>
+      <div id="grad5"></div>
+      <hr>
+      <div id="grad6"></div>
+      <hr>
+      <div id="grad7"></div>
+</body>
+</html>
